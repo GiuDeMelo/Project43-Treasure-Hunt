@@ -15,7 +15,6 @@ function setup() {
   security = new Security();
   system = new System();
   
- //this is bugging it all for some reason :/
   database = firebase.database();
   
 }
