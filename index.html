@@ -12,27 +12,27 @@
         <script src="js/Code.js"></script>
         <script src="js/System.js"></script>
     
-        <script type="module">
-          // Import the functions you need from the SDKs you need
-          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
-          // TODO: Add SDKs for Firebase products that you want to use
-          // https://firebase.google.com/docs/web/setup#available-libraries
-        
-          // Your web app's Firebase configuration
-          const firebaseConfig = {
+        <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+        <script>
+          //Your web app's Firebase configuration
+          //mesmo banco de dados da aula 37
+          var firebaseConfig = {
             apiKey: "AIzaSyBMXVCgqShdeipfniO6YOxcChfrFMJrs_A",
-            authDomain: "project-43-treasure-hunt.firebaseapp.com",
-            databaseURL: "https://project-43-treasure-hunt-default-rtdb.firebaseio.com",
-            projectId: "project-43-treasure-hunt",
-            storageBucket: "project-43-treasure-hunt.appspot.com",
-            messagingSenderId: "792860106183",
-            appId: "1:792860106183:web:24493c8e3aefdcfe7e4de2"
+              authDomain: "project-43-treasure-hunt.firebaseapp.com",
+              databaseURL: "https://project-43-treasure-hunt-default-rtdb.firebaseio.com",
+              projectId: "project-43-treasure-hunt",
+              storageBucket: "project-43-treasure-hunt.appspot.com",
+              messagingSenderId: "792860106183",
+              appId: "1:792860106183:web:24493c8e3aefdcfe7e4de2"
           };
-        
+          // // Initialize Firebase
+          // firebase.initializeApp(firebaseConfig);
+ 
           // Initialize Firebase
-          const app = initializeApp(firebaseConfig);
+          firebase.initializeApp(firebaseConfig);
         </script>
-        
+  
       </head>
 
     <body>
